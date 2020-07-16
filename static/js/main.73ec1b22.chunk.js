@@ -1,2 +1,0 @@
-(this.webpackJsonpgetmadd=this.webpackJsonpgetmadd||[]).push([[0],[,,,function(e,t,n){e.exports=n(10)},,,,,function(e,t,n){},function(e,t,n){},function(e,t,n){"use strict";n.r(t);var a=n(0),c=n.n(a),r=n(2),o=n.n(r);n(8),n(9);var l=function(){return c.a.createElement("div",{className:"App"},c.a.createElement("h1",null,"madd to git"))};o.a.render(c.a.createElement(c.a.StrictMode,null,c.a.createElement(l,null)),document.getElementById("root"))}],[[3,1,2]]]);
-//# sourceMappingURL=main.73ec1b22.chunk.js.map
