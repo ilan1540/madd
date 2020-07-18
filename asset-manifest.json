@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/madd/static/css/main.e7c1212a.chunk.css",
-    "main.js": "/madd/static/js/main.9fbbe8a4.chunk.js",
-    "main.js.map": "/madd/static/js/main.9fbbe8a4.chunk.js.map",
+    "main.js": "/madd/static/js/main.6df2e6a1.chunk.js",
+    "main.js.map": "/madd/static/js/main.6df2e6a1.chunk.js.map",
     "runtime-main.js": "/madd/static/js/runtime-main.742d3929.js",
     "runtime-main.js.map": "/madd/static/js/runtime-main.742d3929.js.map",
     "static/js/2.189f10e9.chunk.js": "/madd/static/js/2.189f10e9.chunk.js",
     "static/js/2.189f10e9.chunk.js.map": "/madd/static/js/2.189f10e9.chunk.js.map",
     "index.html": "/madd/index.html",
-    "precache-manifest.2fbb312131c25a109d7820547da315e7.js": "/madd/precache-manifest.2fbb312131c25a109d7820547da315e7.js",
+    "precache-manifest.d377e2fdce657e15d0d921eafeb2a0b6.js": "/madd/precache-manifest.d377e2fdce657e15d0d921eafeb2a0b6.js",
     "service-worker.js": "/madd/service-worker.js",
     "static/css/main.e7c1212a.chunk.css.map": "/madd/static/css/main.e7c1212a.chunk.css.map",
     "static/js/2.189f10e9.chunk.js.LICENSE.txt": "/madd/static/js/2.189f10e9.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.742d3929.js",
     "static/js/2.189f10e9.chunk.js",
     "static/css/main.e7c1212a.chunk.css",
-    "static/js/main.9fbbe8a4.chunk.js"
+    "static/js/main.6df2e6a1.chunk.js"
   ]
 }
