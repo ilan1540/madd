@@ -5,7 +5,7 @@ const Navbar = () => {
     <div>
       <nav className="navbar  bg-dark">
         <a className="navbar-brand" href="/">
-          <i className="fas fa-chart-line">Home</i>
+          <i className="fas fa-chart-line"></i>
         </a>
         <h1>מדד המחירים לצרכן</h1>
       </nav>
