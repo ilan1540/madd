@@ -1,16 +1,28 @@
 import React, { Fragment } from 'react';
 
-const Home = ({ lastUpdete }) => {
+const AllBaseMadd = ({ lastUpdete, tggler }) => {
   return (
     <Fragment>
       {lastUpdete ? (
         <div className="container">
-          <div className="koteret">
-            <h1>
-              {lastUpdete.code} {lastUpdete.name}
-            </h1>
-          </div>
           <table className="table">
+            <thead>
+              <tr>
+                <th scope="row">
+                  {lastUpdete.code} {lastUpdete.name}
+                </th>
+                <th></th>
+                <th>
+                  <button
+                    type="button"
+                    className="btn btn-secondary btn-sm "
+                    onClick={tggler}
+                  >
+                    חזור
+                  </button>
+                </th>
+              </tr>
+            </thead>
             <thead>
               <tr>
                 <th scope="col">בסיס</th>
@@ -41,4 +53,4 @@ const Home = ({ lastUpdete }) => {
   );
 };
 
-export default Home;
+export default AllBaseMadd;

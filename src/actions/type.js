@@ -1,0 +1,8 @@
+export const GET_LAST_MADD = 'GET_LAST_MADD';
+export const GET_SDAROT = 'GET_SDAROT';
+
+export const FETCH_MADD_REQUEST = 'FETCH_MADD_REQUEST';
+
+export const FETCH_MADD_SUCCESS = 'FETCH_MADD_SUCCESS';
+
+export const FETCH_MADD_FAILURE = 'FETCH_MADD_FAILURE';

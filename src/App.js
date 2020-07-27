@@ -1,5 +1,7 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import store from './store';
 
 import './App.css';
 import Navbar from './componants/layout/Navbar';
@@ -7,12 +9,12 @@ import Routes from './componants/routes/Routes';
 
 function App() {
   return (
-    <Fragment>
+    <Provider store={store}>
       <BrowserRouter>
         <Navbar />
         <Routes />
       </BrowserRouter>
-    </Fragment>
+    </Provider>
   );
 }
 
