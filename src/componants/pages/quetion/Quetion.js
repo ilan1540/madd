@@ -10,8 +10,10 @@ export const Quetion = () => {
       <SelectBasis />
       {filterData ? (
         <div className="container">
-          <table className="table table-striped">
+          <div className="mr-auto">
             <h4>מדד המחירים לצרכן</h4>
+          </div>
+          <table className="table table-sm table-hover table-striped">
             <thead className="thead-dark">
               <tr>
                 <th scope="col">שנה</th>
