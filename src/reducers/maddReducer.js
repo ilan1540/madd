@@ -1,58 +1,47 @@
 import {
   GET_LAST_MADD,
-  GET_SDAROT,
-  FETCH_MADD_REQUEST,
-  FETCH_MADD_SUCCESS,
-  FETCH_MADD_FAILURE,
+  SDAROT_CLALI,
+  SDAROT_BNIYA,
+  FILTER_DATA,
+  CLEAT_FILTER,
 } from '../actions/type';
-//import { fetchSdarotFailure } from '../actions/newMaddAction';
+//import { filterData } from '../actions/maddActions';
 
 const initialState = {
   lastMadd: {},
-  counter: 0,
-  loading: false,
-  sdarot: [],
-  error: '',
+  sdarotClali: {},
+  sdarotBniya: {},
+  filterData: [],
 };
 
 export default (state = initialState, action) => {
   switch (action.type) {
-    case FETCH_MADD_REQUEST:
-      return {
-        ...state,
-        loading: true,
-      };
-    case FETCH_MADD_SUCCESS:
-      return {
-        loading: false,
-        sdarot: action.payload,
-        error: '',
-      };
-    case FETCH_MADD_FAILURE:
-      return {
-        loading: false,
-        sdarot: [],
-        error: action.payload,
-      };
-
     case GET_LAST_MADD:
       return {
         ...state,
         lastMadd: action.payload,
       };
-    case GET_SDAROT:
+    case SDAROT_CLALI:
       return {
         ...state,
-        sdarotList: action.payload,
+        sdarotClali: action.payload,
       };
-    case 'INC':
-      return { ...state, counter: state.counter + 1 };
-    case 'TEST':
-      console.log(action.payload);
+    case SDAROT_BNIYA:
       return {
         ...state,
-        test: action.payload,
+        sdarotBniya: action.payload,
       };
+    case FILTER_DATA:
+      return {
+        ...state,
+        filterData: [...state.filterData, action.payload],
+      };
+    case CLEAT_FILTER:
+      return {
+        ...state,
+        filterData: action.payload,
+      };
+
     default:
       return state;
   }

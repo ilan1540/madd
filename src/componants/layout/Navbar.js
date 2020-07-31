@@ -13,6 +13,9 @@ const Navbar = () => {
         <a className="navbar-brand" href="/tablemadd">
           table
         </a>
+        <a className="navbar-brand" href="/quetion">
+          quetion
+        </a>
         <h1>מדד המחירים לצרכן</h1>
       </nav>
     </div>

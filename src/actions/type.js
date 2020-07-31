@@ -1,5 +1,8 @@
 export const GET_LAST_MADD = 'GET_LAST_MADD';
-export const GET_SDAROT = 'GET_SDAROT';
+export const SDAROT_CLALI = 'SDAROT_CLALI';
+export const SDAROT_BNIYA = 'SDAROT_BNIYA';
+export const FILTER_DATA = 'FILTER_DATA';
+export const CLEAT_FILTER = 'CLEAT_FILTER';
 
 export const FETCH_MADD_REQUEST = 'FETCH_MADD_REQUEST';
 

@@ -1,9 +1,10 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import { Home } from '../pages/Home';
-import AllBaseMadd from '../pages/AllBaseMadd';
-import LastMadd from '../pages/LastMadd';
-import { TableMadd } from '../pages/TableMadd';
+import AllBaseMadd from '../pages/lastMadd/AllBaseMadd';
+import LastMadd from '../pages/lastMadd/LastMadd';
+import { TableMadd } from '../pages/showTableMdd/TableMadd';
+import { Quetion } from '../pages/quetion/Quetion';
 
 const Routes = () => {
   return (
@@ -13,6 +14,7 @@ const Routes = () => {
         <Route exact path="/lastmadd" component={LastMadd} />
         <Route exact path="/madd/all" component={AllBaseMadd} />
         <Route exact path="/tablemadd" component={TableMadd} />
+        <Route exact path="/quetion" component={Quetion} />
       </Switch>
     </div>
   );

@@ -19,8 +19,8 @@ export const SelectMaddBasis = ({ basis, selected }) => {
           ? basis.map((i) => (
               <option
                 key={i.coeff}
-                value={i.coeff}
-                onChange={(e) => console.log(e.target.value)}
+                value={i.mekadem}
+                onChange={(e) => selected(e.target.value)}
               >
                 {i.baseDesc}
               </option>

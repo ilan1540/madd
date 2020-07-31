@@ -1,15 +1,10 @@
-import { GET_SDAROT, GET_LAST_MADD } from './type';
-//import axios from 'axios';
-//import { useDispatch } from 'react-redux';
-
-export const test = () => {
-  const res = { name: 'ilan', lastName: 'bar lev' };
-
-  return {
-    type: 'TEST',
-    payload: res,
-  };
-};
+import {
+  SDAROT_CLALI,
+  GET_LAST_MADD,
+  SDAROT_BNIYA,
+  FILTER_DATA,
+  CLEAT_FILTER,
+} from './type';
 
 export const getLastMadd = (data) => {
   return {
@@ -18,27 +13,29 @@ export const getLastMadd = (data) => {
   };
 };
 
-export const getSdarot = (data) => {
+export const sdarotClali = (data) => {
   return {
-    type: GET_SDAROT,
+    type: SDAROT_CLALI,
     payload: data,
   };
+};
+export const sdarotBniya = (data) => {
+  return {
+    type: SDAROT_BNIYA,
+    payload: data,
+  };
+};
 
-  /*  const dispatch = useDispatch();
-  const url =
-    'https://api.cbs.gov.il/index/catalog/subject?id=37&format=json&download=false';
-  await axios.get(url).then((res) => {
-    console.log(res.data);
-    dispatch = {
-      type: GET_SDAROT,
-      payload: res.data,
-    };
-    var obj1 = {
-      type: GET_SDAROT,
-      payload: 12345,
-    };
-    console.log(dispatch);
-    return obj1;
-  });
-  */
+export const filterData = (data) => {
+  return {
+    type: FILTER_DATA,
+    payload: data,
+  };
+};
+
+export const clearFilter = () => {
+  return {
+    type: CLEAT_FILTER,
+    payload: [],
+  };
 };
