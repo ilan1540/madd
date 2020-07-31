@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/madd/static/css/main.e7c1212a.chunk.css",
-    "main.js": "/madd/static/js/main.6df2e6a1.chunk.js",
-    "main.js.map": "/madd/static/js/main.6df2e6a1.chunk.js.map",
+    "main.css": "/madd/static/css/main.8af42587.chunk.css",
+    "main.js": "/madd/static/js/main.05301bc1.chunk.js",
+    "main.js.map": "/madd/static/js/main.05301bc1.chunk.js.map",
     "runtime-main.js": "/madd/static/js/runtime-main.742d3929.js",
     "runtime-main.js.map": "/madd/static/js/runtime-main.742d3929.js.map",
-    "static/js/2.189f10e9.chunk.js": "/madd/static/js/2.189f10e9.chunk.js",
-    "static/js/2.189f10e9.chunk.js.map": "/madd/static/js/2.189f10e9.chunk.js.map",
+    "static/js/2.034504c9.chunk.js": "/madd/static/js/2.034504c9.chunk.js",
+    "static/js/2.034504c9.chunk.js.map": "/madd/static/js/2.034504c9.chunk.js.map",
     "index.html": "/madd/index.html",
-    "precache-manifest.d377e2fdce657e15d0d921eafeb2a0b6.js": "/madd/precache-manifest.d377e2fdce657e15d0d921eafeb2a0b6.js",
+    "precache-manifest.ccf17a373508a0c1fee9f0678179d7d6.js": "/madd/precache-manifest.ccf17a373508a0c1fee9f0678179d7d6.js",
     "service-worker.js": "/madd/service-worker.js",
-    "static/css/main.e7c1212a.chunk.css.map": "/madd/static/css/main.e7c1212a.chunk.css.map",
-    "static/js/2.189f10e9.chunk.js.LICENSE.txt": "/madd/static/js/2.189f10e9.chunk.js.LICENSE.txt"
+    "static/css/main.8af42587.chunk.css.map": "/madd/static/css/main.8af42587.chunk.css.map",
+    "static/js/2.034504c9.chunk.js.LICENSE.txt": "/madd/static/js/2.034504c9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.742d3929.js",
-    "static/js/2.189f10e9.chunk.js",
-    "static/css/main.e7c1212a.chunk.css",
-    "static/js/main.6df2e6a1.chunk.js"
+    "static/js/2.034504c9.chunk.js",
+    "static/css/main.8af42587.chunk.css",
+    "static/js/main.05301bc1.chunk.js"
   ]
 }
