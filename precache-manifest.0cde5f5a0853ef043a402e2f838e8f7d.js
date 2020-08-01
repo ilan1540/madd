@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fabaf2a9f3b947e42e59e76188bb93bb",
+    "revision": "260498ebf6e43e3fcc328ee78ee1f204",
     "url": "/isrelMadd/index.html"
   },
   {
-    "revision": "ed1785fe2e5bd6b9d910",
+    "revision": "a25b86fe53c21bf4f6ae",
     "url": "/isrelMadd/static/css/main.8af42587.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/isrelMadd/static/js/2.034504c9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ed1785fe2e5bd6b9d910",
-    "url": "/isrelMadd/static/js/main.05301bc1.chunk.js"
+    "revision": "a25b86fe53c21bf4f6ae",
+    "url": "/isrelMadd/static/js/main.83d0a661.chunk.js"
   },
   {
     "revision": "03aa0d4c04676101cfdd",

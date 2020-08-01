@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/isrelMadd/precache-manifest.160df804f6e024345bb991eaa1997552.js"
+  "/isrelMadd/precache-manifest.0cde5f5a0853ef043a402e2f838e8f7d.js"
 );
 
 self.addEventListener('message', (event) => {

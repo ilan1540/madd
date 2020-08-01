@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/isrelMadd/static/css/main.8af42587.chunk.css",
-    "main.js": "/isrelMadd/static/js/main.05301bc1.chunk.js",
-    "main.js.map": "/isrelMadd/static/js/main.05301bc1.chunk.js.map",
+    "main.js": "/isrelMadd/static/js/main.83d0a661.chunk.js",
+    "main.js.map": "/isrelMadd/static/js/main.83d0a661.chunk.js.map",
     "runtime-main.js": "/isrelMadd/static/js/runtime-main.583b4f8d.js",
     "runtime-main.js.map": "/isrelMadd/static/js/runtime-main.583b4f8d.js.map",
     "static/js/2.034504c9.chunk.js": "/isrelMadd/static/js/2.034504c9.chunk.js",
     "static/js/2.034504c9.chunk.js.map": "/isrelMadd/static/js/2.034504c9.chunk.js.map",
     "index.html": "/isrelMadd/index.html",
-    "precache-manifest.160df804f6e024345bb991eaa1997552.js": "/isrelMadd/precache-manifest.160df804f6e024345bb991eaa1997552.js",
+    "precache-manifest.0cde5f5a0853ef043a402e2f838e8f7d.js": "/isrelMadd/precache-manifest.0cde5f5a0853ef043a402e2f838e8f7d.js",
     "service-worker.js": "/isrelMadd/service-worker.js",
     "static/css/main.8af42587.chunk.css.map": "/isrelMadd/static/css/main.8af42587.chunk.css.map",
     "static/js/2.034504c9.chunk.js.LICENSE.txt": "/isrelMadd/static/js/2.034504c9.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.583b4f8d.js",
     "static/js/2.034504c9.chunk.js",
     "static/css/main.8af42587.chunk.css",
-    "static/js/main.05301bc1.chunk.js"
+    "static/js/main.83d0a661.chunk.js"
   ]
 }
