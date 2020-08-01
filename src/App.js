@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter BrowserRouter } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from './store';
 
@@ -11,11 +11,11 @@ import { StartFunc } from './StartFunc';
 function App() {
   return (
     <Provider store={store}>
-      <HashRouter>
+      <BrowserRouter>
         <Navbar />
         <StartFunc />
         <Routes />
-      </HashRouter>
+      </BrowserRouter>
     </Provider>
   );
 }
