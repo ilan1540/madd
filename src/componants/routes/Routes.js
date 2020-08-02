@@ -10,7 +10,7 @@ const Routes = () => {
   return (
     <div>
       <Switch>
-        <Route exact path="/isrelMadd" component={Home} />
+        <Route exact path="/madd" component={Home} />
         <Route exact path="/lastmadd" component={LastMadd} />
         <Route exact path="/madd/all" component={AllBaseMadd} />
         <Route exact path="/tablemadd" component={TableMadd} />
